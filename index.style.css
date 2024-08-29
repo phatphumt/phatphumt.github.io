@@ -1,0 +1,23 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    background: #164A7A;
+    color: #fff;
+    padding: 1.5rem 2rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+nav ul li {
+   transition: all 200ms ease;
+}
+
+nav ul li:hover {
+    transform: rotateZ(-10deg);
+}
