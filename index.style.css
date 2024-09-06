@@ -1,3 +1,16 @@
+.btn {
+    margin-top: .7rem;
+    border: 0.8px #fff solid;
+    padding: .5rem;
+    color: #fff;
+    transition: all 300ms ease;
+}
+
+.btn:hover {
+    background-color: #fff;
+    color: #1f1f1f;
+}
+
 nav {
     display: flex;
     justify-content: space-evenly;
@@ -55,11 +68,12 @@ main .splitcard {
 
 
 main .card {
-    height: 200px;
+    height: 100%;
     display: flex;
     flex-direction: column;
     padding: 2rem;
     position: relative;
+    text-align: center;
 }
 
 main .card h3 {
@@ -70,23 +84,8 @@ main .card p {
     font-size: 1.05rem;
 }
 
-main .card button {
-    position: absolute;
-    bottom: 2rem;
-    border: 0.8px #fff solid;
-    padding: .5rem;
-    color: #fff;
-    transition: all 300ms ease;
-}
-
-main .card button:hover {
-    background-color: #fff;
-    color: #1f1f1f;
-}
-
 .card1 {
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.795), rgba(0, 0, 0, 0.466)), url("https://teresas.ac.in/wp-content/uploads/2017/11/NCERT-Solutions-For-Class-8-History.jpg");
-    
     background-size: 90%;
 }
 
@@ -126,6 +125,15 @@ main .card button:hover {
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.795), rgba(0, 0, 0, 0.466)), url("https://cdn.shopify.com/s/files/1/0832/7545/files/woman-playing-piano-going-right_large.jpg?v=1565035910");
     background-position: center;
     background-size: 100%;
+}
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 3rem 2rem;
 }
 
 /*
