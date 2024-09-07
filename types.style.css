@@ -1,0 +1,12 @@
+header .section-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+header .section-container section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}

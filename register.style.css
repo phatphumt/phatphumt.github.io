@@ -1,0 +1,71 @@
+main {
+    display: grid;
+    place-items: center;
+    min-height: 78vh;
+}
+
+form {
+	margin: 2rem 0;
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border-radius: 1rem;
+	gap: 1rem;
+	transition: all 200ms ease-in;
+}
+
+form .inp {
+	display: flex;
+	gap: 0.2rem;
+	flex-direction: column;
+}
+
+form .inp input {
+	width: 300px;
+    background: #1f1f1f;
+	padding: 0.5rem;
+    color: #fff;
+    border-bottom: 1px solid #d3d2d2;
+    font-size: 1rem;
+}
+
+form .inp input:focus {
+    animation: inputvroppp 500ms ease;
+}
+
+form .inp input::placeholder {
+    font-size: 1rem;
+    color: #c2c2c2a9;
+}
+
+form .checkbox label {
+	font-size: 0.85rem;
+}
+
+form h1 {
+	text-align: center;
+	color: #fff;
+	font-size: 2.2rem;
+}
+
+form button {
+    width: 100%;
+    font-size: 1rem;
+}
+
+form .btndiv {
+    width: 100%;
+}
+
+@keyframes inputvroppp {
+    0% {
+        border-bottom: 1px solid #d3d2d2;
+    }
+    50% {
+        border-bottom: 1.5px solid #ffffff;
+    }
+    100% {
+        border-bottom: 1px solid #d3d2d2;
+    }
+}

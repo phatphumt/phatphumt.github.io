@@ -1,68 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Piano</title>
-    <link rel="stylesheet" href="global.style.css">
-    <link rel="stylesheet" href="index.style.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Piano - Home</title>
+    <link rel="stylesheet" href="global.style.css" />
+    <link rel="stylesheet" href="index.style.css" />
+  </head>
+  <body>
     <nav>
-        <h1><a href="./index.html">เปียโน</a></h1>
-        <ul>
-            <li><a href="./index.html">หน้าหล้ก</a></li>
-            <li><a href="./register.html">สมัครสมาชิก</a></li>
-        </ul>
+      <h1><a href="./index.html">เปียโน</a></h1>
+      <ul>
+        <li><a href="./index.html">หน้าหล้ก</a></li>
+        <li><a href="./register.html">สมัครสมาชิก</a></li>
+      </ul>
     </nav>
     <header>
-        <h2>เปียโน</h2>
-        <p>“เพลงอาจมีหลายคีย์ แต่นักดนตรีอย่างพี่ไม่มีหลายใจ”</p>
+      <h2>เปียโน</h2>
+      <p>“เพลงอาจมีหลายคีย์ แต่นักดนตรีอย่างพี่ไม่มีหลายใจ”</p>
     </header>
     <main>
-        <div class="splitcard">
-            <div class="card card1">
-                <h3>ประวัติของเปียโน</h3>
-                <p>ศึกษาและเรียนรู้ที่มา ต้นกำเนิด และประวัติของเปียโน</p>
-                <button>เรียนรู้เพิ่มเติม</button>
-            </div>
-            <div class="card card2">
-                <h3>ประเภทของเปียโน</h3>
-                <p>เปียโนมีหลายประเภทนะ แต่ละแบบก็เล่นไม่เหมือนกัน</p>
-                <button>เรียนรู้เพิ่มเติม</button>
-            </div>
-            <div class="card card3">
-                <h3>หลักการทำงานเปียโน</h3>
-                <p>เปียโนทำงานยังไง ทำไมเสียงเพราะจัง</p>
-                <button>เรียนรู้เพิ่มเติม</button>
-            </div>
-            <div class="card card4">
-                <h3>เทคนิคในการเล่นเปียโน</h3>
-                <p>เปียโนเล่นยากนะ มีหลายเทคนิคเลย</p>
-                <button>เรียนรู้เพิ่มเติม</button>
-            </div>
-            <div class="card card5">
-                <h3>การดูแลรักษาเปียโน</h3>
-                <p>เปียโนมันแพง รักษามันดีๆล่ะ</p>
-                <button>เรียนรู้เพิ่มเติม</button>
-            </div>
-            <div class="card card6">
-                <h3>สเกลในเปียโน</h3>
-                <p>ฝึกสเกลเยอะๆ นะนิ้วจะได้แข็งแรง</p>
-                <button>เรียนรู้เพิ่มเติม</button>
-            </div>
-            <div class="card card7">
-                <h3>คอร์ดในเปียโน</h3>
-                <p>เรียนรู้วิธีการสร้างคอร์ดต่างๆ บนเปียโน</p>
-                <button>เรียนรู้เพิ่มเติม</button>
-            </div>
-            <div class="card card8">
-                <h3>Arpeggio ในเปียโน</h3>
-                <p>เล่น Arpeggio ได้ก็เท่นะ</p>
-                <button>เรียนรู้เพิ่มเติม</button>
-            </div>
+      <div class="splitcard">
+        <div class="card card1">
+          <div class="card-child">
+            <h3>ประวัติของเปียโน</h3>
+            <p>ศึกษาและเรียนรู้ที่มา ต้นกำเนิด และประวัติของเปียโน</p>
+            <button id="history">เรียนรู้เพิ่มเติม</button>
+          </div>
         </div>
+        <div class="card card2">
+          <div class="card-child">
+            <h3>ประเภทของเปียโน</h3>
+            <p>เรียนรู้และจำแนกประเภทของเปียโน</p>
+            <button id="types">เรียนรู้เพิ่มเติม</button>
+          </div>
+        </div>
+        <div class="card card3">
+          <div class="card-child">
+            <h3>หลักการทำงานเปียโน</h3>
+            <p>ศึกษาหลักการทำงานของเปียโน</p>
+            <button id="mechanisms">เรียนรู้เพิ่มเติม</button>
+          </div>
+        </div>
+        <div class="card card4">
+          <div class="card-child">
+            <h3>เทคนิคในการเล่นเปียโน</h3>
+            <p>ฝึกปฏิบัติเปียโนด้วยเทคนิคต่างๆ</p>
+            <button id="techniques">เรียนรู้เพิ่มเติม</button>
+          </div>
+        </div>
+        <div class="card card5">
+          <div class="card-child">
+            <h3>การดูแลรักษาเปียโน</h3>
+            <p>ศึกษาวิธีดูแลรักษาเปียโนให้ถูกต้อง</p>
+            <button id="caring">เรียนรู้เพิ่มเติม</button>
+          </div>
+        </div>
+        <div class="card card6">
+          <div class="card-child">
+            <h3>สเกลในเปียโน</h3>
+            <p>ฝึกปฏิบัติสเกลต่างๆ ในเปียโน</p>
+            <button id="scales">เรียนรู้เพิ่มเติม</button>
+          </div>
+        </div>
+        <div class="card card7">
+          <div class="card-child">
+            <h3>คอร์ดในเปียโน</h3>
+            <p>เรียนรู้วิธีการสร้างคอร์ดต่างๆ บนเปียโน</p>
+            <button id="chrods">เรียนรู้เพิ่มเติม</button>
+          </div>
+        </div>
+        <div class="card card8">
+          <div class="card-child">
+            <h3>Arpeggio ในเปียโน</h3>
+            <p>ฝึกปฏิบัติ Arpeggio ในเปียโน</p>
+            <button id="arpeggios">เรียนรู้เพิ่มเติม</button>
+          </div>
+        </div>
+      </div>
     </main>
-</body>
-</html>
 
+    <footer>
+      <h3>จัดทำโดย</h3>
+      <p><a href="./credits.html#p1">นายพัฒน์ภูมิ ทาสระคู</a></p>
+      <p><a href="./credits.html#p2">ด.ช.พศุตม์ เกศวพิทักษ์</a></p>
+      <p><a href="./credits.html#p3">นายกิณคาวรัก รานานารา</a></p>
+      <a href="./credits.html">ดูเพิ่มเติม</a>
+    </footer>
+
+    <script>
+      const locations = [
+        { id: "history", href: "./history.html" },
+        { id: "types", href: "./types.html" },
+        { id: "mechanisms", href: "./mechanisms.html" },
+        { id: "techniques", href: "./techniques.html" },
+        { id: "caring", href: "./caring.html" },
+        { id: "scales", href: "./scales.html" },
+      ];
+
+      locations.map((val) => {
+        document.getElementById(val.id).addEventListener("click", () => {
+          location.href = val.href;
+        });
+      });
+    </script>
+  </body>
+</html>
