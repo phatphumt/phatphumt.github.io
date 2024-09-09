@@ -63,38 +63,38 @@ main .card button:hover {
 
 .card1 {
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.795), rgba(0, 0, 0, 0.466)),
-    url("https://teresas.ac.in/wp-content/uploads/2017/11/NCERT-Solutions-For-Class-8-History.jpg");
+    url("./assets/index/history.jpg");
 
   background-size: 90%;
 }
 
 .card2 {
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.795), rgba(0, 0, 0, 0.466)),
-    url("https://blog-media.byjusfutureschool.com/bfs-blog/2022/06/30091701/Article-Page-1-1.jpg");
+    url("./assets/index/typesofpiano.jpg");
 }
 
 .card3 {
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.795), rgba(0, 0, 0, 0.466)),
-    url("https://millersmusic.co.uk/cdn/shop/articles/Untitled_design_76.png?v=1650374765");
+    url("./assets/index/mechanisms.webp");
   background-size: 110%;
   background-position: center;
 }
 
 .card4 {
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.795), rgba(0, 0, 0, 0.466)),
-    url("https://www.pianolessonsontheweb.com/uploads/3/0/7/0/30709063/568374845.jpg?723");
+    url("./assets/index/techniques.jpg");
 }
 
 .card5 {
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.795), rgba(0, 0, 0, 0.466)),
-    url("https://www.ซ่อมเปียโนราคาถูก.com/wp-content/uploads/2019/02/2-Custom.jpg");
+    url("./assets/index/maintanaice.jpg");
   background-position: center;
   background-size: 100%;
 }
 
 .card6 {
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.795), rgba(0, 0, 0, 0.466)),
-    url("https://www.tonara.com/wp-content/uploads/2020/09/Piano-Scales-1-1.jpg");
+    url("./assets/index/scales.webp   ");
   background-position: center;
   background-size: 100%;
 }

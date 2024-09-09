@@ -5,7 +5,7 @@ header {
   align-items: center;
   padding: 5rem;
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.795), rgba(0, 0, 0, 0.466)),
-    url("https://cdn.pixabay.com/photo/2018/09/26/01/06/piano-3703616_1280.jpg");
+    url("https://cdn.shopify.com/s/files/1/0282/2789/5427/files/Piano_mechanisms-upright_vs_grand_2_b0ee1779-2570-409b-a100-90107b3de20c.jpg?v=1579258972");
   background-position: center;
   background-size: cover;
 }
@@ -19,10 +19,31 @@ header h2 {
   font-size: 3rem;
 }
 
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+article {
+  align-self: center;
+  margin-top: 3%;
+  padding: 1rem 3rem;
+  background: linear-gradient(
+    30deg,
+    rgba(0, 0, 0, 0.795),
+    rgb(27, 27, 27),
+    rgba(0, 0, 0, 0.795)
+  );
+}
+
+main article h3 {
+  font-size: 2rem;
+}
+
 main section {
   display: flex;
   justify-content: center;
-  margin: 3rem;
+  margin: 2rem;
   align-items: center;
 }
 
@@ -40,4 +61,8 @@ main section aside p {
 
 main section.c2 {
   text-align: right;
+}
+
+aside h4 {
+  font-size: 1.5rem;
 }
