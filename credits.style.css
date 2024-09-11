@@ -1,0 +1,50 @@
+header p {
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+header h2 {
+  font-size: 3rem;
+  text-align: center;
+  margin: 2rem 0 0rem 0;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+main section {
+  display: flex;
+  justify-content: center;
+  margin: 3rem;
+  align-items: center;
+}
+
+main section aside {
+  padding: 3rem;
+}
+
+main section aside h3 {
+  font-size: 2rem;
+}
+
+main section aside p {
+  font-size: 1.2rem;
+}
+
+main section img {
+  border-radius: 50%;
+}
+
+.icon-text {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.icon-text span {
+  transform: translateY(-2px);
+}

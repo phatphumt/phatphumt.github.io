@@ -23,9 +23,11 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 
-main section h2, main section p {
+main section h2,
+main section p {
   text-align: center;
 }
 
@@ -52,7 +54,7 @@ main section .legend {
 
 main section .legend figcaption {
   display: flex;
-  font-size: .9rem;
+  font-size: 0.9rem;
   flex-direction: column;
 }
 

@@ -7,10 +7,15 @@ document.querySelector("navbar").innerHTML = `
   </ul>
 </nav>
 `
+
 document.querySelector("page-footer").innerHTML = `
+
+<div id="comments" style="text-align: center; margin-bottom: 2rem">
+</div>
+
 <form class="comment">
   <input placeholder="แสดงความคิดเห็น" />
-  <div class="send"><i class="material-icons">send</i></div>
+  <button class="send"><i class="material-icons">send</i></button>
 </form>
 
 
@@ -22,6 +27,29 @@ document.querySelector("page-footer").innerHTML = `
   <a href="./credits.html">ดูเพิ่มเติม</a>
 </footer>
 `
+
+let val = ""
+const input = document.querySelector("input")
+const target = document.querySelector("#comments")
+
+
+document.querySelector('form.comment').addEventListener("submit", (e) => {
+  val = input.value
+  e.preventDefault()
+  input.value = ""
+  console.log(val)
+  if (val) {
+    const p = document.createElement("p")
+    const time = new Date()
+    p.textContent = `คุณ (${time.toLocaleTimeString()}): ${val}`
+    target.appendChild(p)
+  }
+  console.log(e)
+})
+
+function onSubmit(e) {
+  e.preventDefault()
+}
 
 {/* <div class="card-container">
       <div class="card card1">
