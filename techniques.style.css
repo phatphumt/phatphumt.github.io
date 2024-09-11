@@ -49,6 +49,18 @@ main section.c2 {
   text-align: right;
 }
 
+article {
+  margin-bottom: 2rem;
+}
+
 article h3 {
   font-size: 2rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+article .pieces {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
 }
