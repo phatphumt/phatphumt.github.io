@@ -1,0 +1,54 @@
+header {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  justify-content: center;
+  padding: 5rem 0;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.795), rgba(0, 0, 0, 0.466)), url("https://www.evola.com/cm/dpl/images/articles/20/age_to_start_piano.jpg");
+  background-size: 100%;
+  background-position: center;
+}
+
+header h2 {
+  font-size: 3rem;
+  text-align: center;
+}
+
+header p {
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+main section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+main section h3 {
+  font-size: 2.5rem;
+}
+
+main section p {
+  font-size: 1.2rem;
+}
+
+main aside {
+  padding: 3rem;
+}
+
+main section.c2 {
+  text-align: right;
+}
+
+article h3 {
+  font-size: 2rem;
+}

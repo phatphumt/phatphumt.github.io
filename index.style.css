@@ -64,55 +64,78 @@ main .card button:hover {
 .card1 {
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.795), rgba(0, 0, 0, 0.466)),
     url("./assets/index/history.jpg");
-
   background-size: 90%;
 }
-
 .card2 {
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.795), rgba(0, 0, 0, 0.466)),
     url("./assets/index/typesofpiano.jpg");
 }
-
 .card3 {
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.795), rgba(0, 0, 0, 0.466)),
     url("./assets/index/mechanisms.webp");
   background-size: 110%;
   background-position: center;
 }
-
 .card4 {
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.795), rgba(0, 0, 0, 0.466)),
     url("./assets/index/techniques.jpg");
 }
-
 .card5 {
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.795), rgba(0, 0, 0, 0.466)),
     url("./assets/index/maintanaice.jpg");
   background-position: center;
   background-size: 100%;
 }
-
 .card6 {
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.795), rgba(0, 0, 0, 0.466)),
-    url("./assets/index/scales.webp   ");
+    url("./assets/index/scales.webp");
   background-position: center;
   background-size: 100%;
 }
-
 .card7 {
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.795), rgba(0, 0, 0, 0.466)),
     url("https://i.ytimg.com/vi/OXe4nO9mTRs/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDBjT4wzESQ8c_DeI1FogJfc-Wf4g");
   background-position: center;
   background-size: 100%;
 }
-
 .card8 {
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.795), rgba(0, 0, 0, 0.466)),
     url("https://cdn.shopify.com/s/files/1/0832/7545/files/woman-playing-piano-going-right_large.jpg?v=1565035910");
   background-position: center;
   background-size: 100%;
 }
+::view-transition-group(root) {
+  animation-duration: 0.5s;
+}
 
+@keyframes move-out {
+  from {
+      transform: translateX(0%);
+  }
+
+  to {
+      transform: translateX(100%);
+  }
+}
+
+@keyframes move-in {
+  from {
+      transform: translateX(-100%);
+  }
+
+  to {
+      transform: translateX(0%);
+  }
+}
+
+::view-transition-old(root) {
+  animation: 0.4s cubic-bezier(0.075, 0.82, 0.165, 1) both move-out;
+
+}
+
+::view-transition-new(root) {
+  animation: 0.4s cubic-bezier(0.075, 0.82, 0.165, 1) both move-in;
+}
 /*
 piano
 - ประวัติของเปียโน ok
