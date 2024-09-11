@@ -4,7 +4,7 @@ header {
   justify-content: center;
   align-items: center;
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.795), rgba(0, 0, 0, 0.466)),
-    url("./piano.jpg");
+    url("./assets/piano.jpg");
   height: 400px;
   transition: background 500ms ease;
 }

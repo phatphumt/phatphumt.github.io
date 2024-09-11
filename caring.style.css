@@ -1,0 +1,43 @@
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.795), rgba(0, 0, 0, 0.466)),
+    url("https://denver.classicpianos.net/wp-content/uploads/sites/5/2022/05/iStock-935475324_USE.jpeg");
+  background-position: center;  
+  background-size: cover;
+}
+
+header p {
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+header h2 {
+  font-size: 3rem;
+}
+
+main section {
+  display: flex;
+  justify-content: center;
+  margin: 3rem;
+  align-items: center;
+}
+
+main section aside {
+  padding: 3rem;
+}
+
+main section aside h3 {
+  font-size: 2rem;
+}
+
+main section aside p {
+  font-size: 1.2rem;
+}
+
+main section.c2 {
+  text-align: right;
+}
